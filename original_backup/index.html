@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ankit Jha - Full-Stack Developer Portfolio. Passionate developer with expertise in Next.js, React, Node, Express, MongoDB.">
+  <title>Ankit Jha | Full-Stack Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+</head>
+<body>
+
+  <!-- Background Effects -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow-1"></div>
+  <div class="bg-glow-2"></div>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="navbar-logo">Ankit Jha</a>
+      <ul class="navbar-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">✦</button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <div class="availability-badge reveal">
+          <span class="dot"></span>
+          Available for opportunities
+        </div>
+
+        <h1 class="hero-title reveal reveal-delay-1">
+          Hi, I'm <span class="name">Ankit<br>Jha</span> <span class="wave">👋</span>
+        </h1>
+
+        <p class="hero-description reveal reveal-delay-2">
+          From <strong>curiosity</strong> to <span class="highlight-link">full-stack development</span> —
+          building the web, one experience at a time.
+        </p>
+
+        <div class="hero-buttons reveal reveal-delay-3">
+          <a href="#about" class="btn-primary">Read My Story →</a>
+          <a href="#" class="btn-secondary">Resume 📄</a>
+        </div>
+
+        <div class="hero-tags reveal reveal-delay-4">
+          <span class="hero-tag">Next.js</span>
+          <span class="hero-tag">React</span>
+          <span class="hero-tag">Node.js</span>
+          <span class="hero-tag">TypeScript</span>
+          <span class="hero-tag">PostgreSQL</span>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper reveal">
+        <!-- Replace src with your actual photo -->
+        <div class="hero-profile-placeholder" id="heroPhoto">
+          Add your photo<br>profile-photo.jpg
+        </div>
+        <div class="floating-dot purple" style="top: 15%; right: 15%;"></div>
+        <div class="floating-dot cyan" style="top: 55%; left: 0;"></div>
+        <div class="floating-dot pink" style="bottom: 15%; right: 5%;"></div>
+        <div class="floating-dot purple" style="top: 25%; right: -5%;"></div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>SCROLL</span>
+      <span class="scroll-dot"></span>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about" id="about">
+    <div class="section-label" style="text-align: center; margin-bottom: 8px;">ABOUT ME</div>
+    <div class="container">
+      <div class="about-image-wrapper reveal">
+        <div class="about-image-card">
+          <div class="window-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <!-- Replace with your actual about photo -->
+          <div class="about-photo-placeholder" id="aboutPhoto">
+            Add your photo — about-photo.jpg
+          </div>
+        </div>
+
+        <div class="about-exp-badge">
+          <div class="exp-label">EXPERIENCE</div>
+          <div class="exp-value">1+ <span style="font-size: 0.8rem; font-weight: 400; color: var(--text-secondary);">yrs</span></div>
+        </div>
+
+        <div class="about-name-tag">
+          <div class="dev-label">// THE DEVELOPER</div>
+          <div class="dev-name">Ankit Kumar Jha</div>
+          <div class="dev-location">Bihar, India</div>
+          <div class="open-to-work-badge">
+            <span class="check">✓</span>
+            Open to Work
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text-card reveal">
+          <div class="quote-icon">❝</div>
+          <p>Hi, I'm Ankit Jha from Bihar, a passionate developer with expertise in Next.js, React, and Node, Express, Mongodb. Currently, I'm working as a Software Developer at CodeDecoders.</p>
+        </div>
+
+        <div class="about-stats">
+          <div class="about-stat-card reveal reveal-delay-1">
+            <div class="stat-icon">🚀</div>
+            <div class="stat-number">20+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="about-stat-card reveal reveal-delay-2">
+            <div class="stat-icon">💼</div>
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Internships</div>
+          </div>
+          <div class="about-stat-card reveal reveal-delay-3">
+            <div class="stat-icon">🏆</div>
+            <div class="stat-number">5+</div>
+            <div class="stat-label">Certificates</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GITHUB PRESENCE SECTION ========== -->
+  <section class="github" id="github">
+    <div class="container">
+      <div class="github-header reveal">
+        <div class="section-label">GITHUB PRESENCE</div>
+        <h2 class="section-title">Code, <span class="purple">Commits</span> & <span class="orange">Craft</span></h2>
+        <p class="section-subtitle" style="margin: 0 auto;">A living record of curiosity turned into code — pulled live from GitHub.</p>
+
+        <div class="github-badges">
+          <span class="github-badge">PROFILE VIEWS <span class="badge-count">539</span></span>
+          <span class="github-badge">FOLLOWERS <span class="badge-count">32</span></span>
+          <span class="github-badge">STARS <span class="badge-count" style="background: var(--accent-orange);">10</span></span>
+        </div>
+      </div>
+
+      <div class="github-stats-grid">
+        <div class="github-stat-card reveal">
+          <div class="stat-icon">🛡️</div>
+          <div class="stat-number">133</div>
+          <div class="stat-label">Repositories</div>
+        </div>
+        <div class="github-stat-card reveal reveal-delay-1">
+          <div class="stat-icon">⭐</div>
+          <div class="stat-number">38</div>
+          <div class="stat-label">Total Stars</div>
+        </div>
+        <div class="github-stat-card reveal reveal-delay-2">
+          <div class="stat-icon">👥</div>
+          <div class="stat-number">32</div>
+          <div class="stat-label">Followers</div>
+        </div>
+        <div class="github-stat-card reveal reveal-delay-3">
+          <div class="stat-icon">🍴</div>
+          <div class="stat-number">19</div>
+          <div class="stat-label">Total Forks</div>
+        </div>
+      </div>
+
+      <div class="github-detail-row">
+        <div class="github-streak-card reveal">
+          <div class="streak-item">
+            <div class="streak-number">3,374</div>
+            <div class="streak-label">Total Contributions</div>
+            <div class="streak-date">Sep 25, 2021 - Present</div>
+          </div>
+          <div class="streak-ring">
+            <svg width="80" height="80">
+              <circle cx="40" cy="40" r="35" fill="none" stroke="rgba(139, 92, 246, 0.15)" stroke-width="4"/>
+              <circle cx="40" cy="40" r="35" fill="none" stroke="var(--accent-purple)" stroke-width="4"
+                      stroke-dasharray="220" stroke-dashoffset="215" stroke-linecap="round"/>
+            </svg>
+            <span class="ring-value">1</span>
+            <span class="ring-icon">🔥</span>
+          </div>
+          <div class="streak-item">
+            <div class="streak-number">20</div>
+            <div class="streak-label">Longest Streak</div>
+            <div class="streak-date">Jun 30, 2024 - Jul 19, 2024</div>
+          </div>
+        </div>
+        <div class="github-stats-image reveal">
+          <span class="github-stats-placeholder">GitHub stats card</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTRIBUTIONS / HEATMAP ========== -->
+  <section class="contributions">
+    <div class="container">
+      <div class="heatmap-card reveal">
+        <div class="heatmap-header">
+          <div>
+            <div class="section-label">CONTRIBUTIONS</div>
+            <h3>Activity Heatmap</h3>
+          </div>
+          <a href="#" class="view-github-btn">View on GitHub →</a>
+        </div>
+
+        <!-- Heatmap will be generated by JS -->
+        <div class="heatmap-months" id="heatmapMonths"></div>
+        <div class="heatmap-body">
+          <div class="heatmap-days">
+            <span>Mo</span>
+            <span>Tu</span>
+            <span>We</span>
+            <span>Th</span>
+            <span>Fr</span>
+            <span>Sa</span>
+            <span>Su</span>
+          </div>
+          <div class="heatmap-grid" id="heatmapGrid"></div>
+        </div>
+
+        <div class="heatmap-legend">
+          <span>Less</span>
+          <div class="legend-cell heatmap-cell level-0"></div>
+          <div class="legend-cell heatmap-cell level-1"></div>
+          <div class="legend-cell heatmap-cell level-2"></div>
+          <div class="legend-cell heatmap-cell level-3"></div>
+          <div class="legend-cell heatmap-cell level-4"></div>
+          <span>More</span>
+        </div>
+      </div>
+
+      <div class="languages-card reveal">
+        <div class="section-label">LANGUAGES</div>
+        <h3>Top Languages</h3>
+        <p class="lang-subtitle">Based on your public repos</p>
+
+        <div class="language-item">
+          <span class="lang-icon">🟨</span>
+          <span class="lang-name">JavaScript</span>
+          <span class="lang-percent">74.1%</span>
+        </div>
+        <div class="language-bar lang-javascript">
+          <div class="bar-fill" style="width: 74.1%;"></div>
+        </div>
+
+        <div class="language-item" style="margin-top: 14px;">
+          <span class="lang-icon">🟧</span>
+          <span class="lang-name">HTML</span>
+          <span class="lang-percent">14.1%</span>
+        </div>
+        <div class="language-bar lang-html">
+          <div class="bar-fill" style="width: 14.1%;"></div>
+        </div>
+
+        <div class="language-item" style="margin-top: 14px;">
+          <span class="lang-icon">🟦</span>
+          <span class="lang-name">TypeScript</span>
+          <span class="lang-percent">9.4%</span>
+        </div>
+        <div class="language-bar lang-typescript">
+          <div class="bar-fill" style="width: 9.4%;"></div>
+        </div>
+
+        <div class="language-item" style="margin-top: 14px;">
+          <span class="lang-icon">☕</span>
+          <span class="lang-name">Java</span>
+          <span class="lang-percent">1.2%</span>
+        </div>
+        <div class="language-bar lang-java">
+          <div class="bar-fill" style="width: 1.2%;"></div>
+        </div>
+
+        <div class="language-item" style="margin-top: 14px;">
+          <span class="lang-icon">🎨</span>
+          <span class="lang-name">CSS</span>
+          <span class="lang-percent">1.2%</span>
+        </div>
+        <div class="language-bar lang-css">
+          <div class="bar-fill" style="width: 1.2%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ACHIEVEMENTS SECTION ========== -->
+  <section class="achievements">
+    <div class="container">
+      <div class="achievements-header reveal">
+        <div class="section-label">ACHIEVEMENTS</div>
+        <h2 class="section-title">Unlocked <span class="highlight">Milestones</span> 🎮</h2>
+      </div>
+
+      <div class="achievements-grid">
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">⭐</div>
+          <div class="achievement-value">38</div>
+          <div class="achievement-label">Total Stars</div>
+          <span class="unlocked-badge">🔓 Unlocked</span>
+        </div>
+        <div class="achievement-card reveal reveal-delay-1">
+          <div class="achievement-icon">🛡️</div>
+          <div class="achievement-value">133</div>
+          <div class="achievement-label">Repositories</div>
+          <span class="unlocked-badge">🔓 Unlocked</span>
+        </div>
+        <div class="achievement-card reveal reveal-delay-2">
+          <div class="achievement-icon">👥</div>
+          <div class="achievement-value">32</div>
+          <div class="achievement-label">Followers</div>
+          <span class="unlocked-badge">🔓 Unlocked</span>
+        </div>
+        <div class="achievement-card reveal reveal-delay-3">
+          <div class="achievement-icon">🍴</div>
+          <div class="achievement-value">19</div>
+          <div class="achievement-label">Total Forks</div>
+          <span class="unlocked-badge">🔓 Unlocked</span>
+        </div>
+        <div class="achievement-card reveal reveal-delay-4">
+          <div class="achievement-icon">👁️</div>
+          <div class="achievement-value">30</div>
+          <div class="achievement-label">Following</div>
+          <span class="unlocked-badge">🔓 Unlocked</span>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">🔭</div>
+          <div class="achievement-value">5+</div>
+          <div class="achievement-label">Languages</div>
+          <span class="unlocked-badge">🔓 Unlocked</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TECHNOLOGIES SECTION ========== -->
+  <section class="technologies" id="skills">
+    <div class="container">
+      <div class="technologies-header reveal">
+        <div class="section-label">TOOLS OF THE TRADE</div>
+        <h2 class="section-title">Technologies I <span class="highlight">worked with</span></h2>
+        <p class="section-subtitle">Battle-tested through real projects and production deployments.</p>
+      </div>
+
+      <div class="tech-grid">
+        <div class="tech-card reveal">
+          <div class="tech-icon">⚛️</div>
+          <div class="tech-name">React</div>
+        </div>
+        <div class="tech-card reveal reveal-delay-1">
+          <div class="tech-icon" style="font-size: 1.8rem; font-weight: 800; font-family: var(--font-heading);">N</div>
+          <div class="tech-name">Next.js</div>
+        </div>
+        <div class="tech-card reveal reveal-delay-2">
+          <div class="tech-icon" style="color: #3178c6; font-weight: 700; font-size: 1.2rem; background: #3178c6; color: #fff; width: 36px; height: 36px; border-radius: 6px; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">TS</div>
+          <div class="tech-name">TypeScript</div>
+        </div>
+        <div class="tech-card reveal reveal-delay-3">
+          <div class="tech-icon">💚</div>
+          <div class="tech-name">Node.js</div>
+        </div>
+        <div class="tech-card reveal reveal-delay-4">
+          <div class="tech-icon">🐘</div>
+          <div class="tech-name">PostgreSQL</div>
+        </div>
+        <div class="tech-card reveal">
+          <div class="tech-icon">🌊</div>
+          <div class="tech-name">TailwindCSS</div>
+        </div>
+        <div class="tech-card reveal reveal-delay-1">
+          <div class="tech-icon">🍃</div>
+          <div class="tech-name">MongoDB</div>
+        </div>
+        <div class="tech-card reveal reveal-delay-2">
+          <div class="tech-icon" style="color: #f05032;">⎇</div>
+          <div class="tech-name">Git</div>
+        </div>
+        <div class="tech-card reveal reveal-delay-3">
+          <div class="tech-icon">△</div>
+          <div class="tech-name">Prisma</div>
+        </div>
+        <div class="tech-card reveal reveal-delay-4">
+          <div class="tech-icon" style="font-weight: 300; font-size: 1.6rem; font-family: monospace;">ex</div>
+          <div class="tech-name">Express</div>
+        </div>
+        <div class="tech-card reveal">
+          <div class="tech-icon" style="background: #f7df1e; color: #000; width: 36px; height: 36px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.1rem; margin: 0 auto 12px;">JS</div>
+          <div class="tech-name">JavaScript</div>
+        </div>
+        <div class="tech-card reveal reveal-delay-1">
+          <div class="tech-icon">🐳</div>
+          <div class="tech-name">Docker</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Ankit Jha. Crafted with ❤️ and ☕</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

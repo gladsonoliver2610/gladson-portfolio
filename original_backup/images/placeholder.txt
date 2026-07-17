@@ -1,0 +1,5 @@
+Place your photos here:
+
+- profile-photo.jpg (Hero section circular profile photo)
+- about-photo.jpg (About Me section photo)
+- Any additional photos you want to add
