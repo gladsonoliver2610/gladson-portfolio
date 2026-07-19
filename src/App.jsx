@@ -635,7 +635,7 @@ export default function App() {
               </div>
 
               <div className="hero-image-wrapper reveal">
-                <img src="/images/image.png" className="hero-profile-img" alt="Gladson Oliver" />
+                <img src="/images/image copy.png" className="hero-profile-img" alt="Gladson Oliver" />
                 <div className="floating-dot purple" style={{ top: '15%', right: '15%' }}></div>
                 <div className="floating-dot cyan" style={{ top: '55%', left: '0' }}></div>
                 <div className="floating-dot pink" style={{ bottom: '15%', right: '5%' }}></div>
